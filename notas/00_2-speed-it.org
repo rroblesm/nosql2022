@@ -109,8 +109,8 @@ _Walmart tiene ambas: S1 por obligaciones legales, S2 por su parte en línea._
 _Waterfall: poco resiliente a los cambios, se debe de diseñar muy bien_
 _En una misma empresa, pueden haber varias y/o distintas bases de datos_
 _Antes el acceso a las bases de datos era directo y era más fácil desarrollarlos, ahora no tanto_
-
-![This is an image](https://i.imgur.com/Nlp8LgN.png)
+Link foto base: https://i.imgur.com/Nlp8LgN.png
+Link foto base2: https://i.imgur.com/AljRFIW.png
 
 * Data Warehouse
 ** Bases de Datos Operativas
@@ -120,22 +120,28 @@ _Antes el acceso a las bases de datos era directo y era más fácil desarrollarl
 - Redundancia
 - Duplicados
 - Columnas repetidas
-** Data Warehouse
+** Data Warehouse (Después del proceso de ExtractTransformLoad): Repositorio unificado para todos los datos que recogen los diversos sistemas de una empresa. (Organizado)
  - Esquema unificador
  - Planeado
  - Integrador
- - Propóósito General
+ - Propósito General
  - Desnormalización
- - Governance Obligatorio
+ - Governance Obligatorio (Sistema de reglas para los datos).
  - Desduplicación
  - Perfilamiento
-** Data Mart
+** Data Mart (Vistas para el negocio) Se enfocan en un sólo tema, menos orígenes que los almacenes de datos.
 - Propósito específico
 - Uno por área de negocio
 - Rápidas para acceder.
-* Data Lake
+* Data Lake (copia con periodicidad de las bases operativas) Un data lake es un gran conjunto de datos en bruto, que todavía no tiene una finalidad definida (Raw).
 ** Fuentes de datos
 TODAS
 ** Carga a un solo lugar
 ** 2 velocidades
 Gracias a su resiliencia y capacidad, podemos equivocarnos y dar servicio a las dos velocidades principales.
+-Organización muy fuerte: carpeta base y luego otras.
+-Da oportunidad a muchos experimentos porque puedes tronarlo sin preocupación.
+-Se puede volver un swamp cuando el lake es un relajo.
+-Es barato.
+-Una parte se va al DWH y otra a Analytics.
+Ejemplos: S3, GCS, Hadoop, Dropbox y Drive
