@@ -18,10 +18,10 @@
 
 * Introducción
 ** Fuerzas de la Era digital
-- Mundo hiperconectado
-- Hiperpersonalización
-- Nuevos Intermediarios
-- Internet como medio unificador
+- Mundo hiperconectado 
+- Hiperpersonalización (diseño personalizado al consumidor: cookies)
+- Nuevos Intermediarios (aws, uber, rappi, etc)
+- Internet como medio unificador (consumimos a través de internet)
 ** Organizaciones
 *** Born Digital
 *** Digitalizing
@@ -66,23 +66,24 @@ $100 MMDD
   - Subsidiarioas
   - Filiales
   - Franquicias
-*** Velocidad 1
+*** Velocidad 1 (solidez, confiabilidad, estabilidad y compliance) Datos que no te puedes perder, pero pueden ser lentos.
 - Sistémicos Nacionales
   - INAI
   - INEGI
 - Sistémicos Internos
-  - Clientes B2B
-  - Clientes con alto valor (SLA)
+  - Clientes B2B (Empresa a empresa: AWS, Consultoras, Azure)
+  - Clientes con alto valor (SLA) (Amazon --> DHL. Empresas gigantes con empresas gigantes).
 - Regulatorios
-  - SCT
-  - COFEPRIS
-  - CNBV
-*** Velocidad 2
+  - SCT (transporte)
+  - COFEPRIS (Riesgos a la salud, higiene: productos)
+  - CNBV (Bolsa de valores)
+  - SAT
+*** Velocidad 2 (agilidad, fluidez, experimentación) Datos que no es tan importante respaldar, pero necesitan ser rápidos.
 - Partners Comerciales
   - Proveedores
   - Outsourcing
 - Clientes Estándar
-  - B2C (sin SLA)
+  - B2C (sin SLA) (business to client) (SLA --> un contrato más robusto con expectativas de productividad).
 - Sucursales
   - Subsidiarioas
   - Filiales
@@ -92,6 +93,7 @@ $100 MMDD
 *** Velocidad Operativa
 - Escritura
 - Lectura
+_Walmart tiene ambas: S1 por obligaciones legales, S2 por su parte en línea._
 
 ** Resumen
 |                    | Industrial IT         | Digital IT           |
@@ -101,8 +103,14 @@ $100 MMDD
 | Objetivo           | Eficiencia Operativa  | Ventaja competitiva  |
 | Atributo Clave     | Estabilidad           | Velocidad            |
 | Propósito Esencial | Dar Confianza         | Enganchar y Deleitar |
-| ¿Quién dirige?     | CTO, CIO.             | CMO, Chief Digital   |
+| ¿Quién dirige?     | CTO Tech, CIO intel.  | CMO mark Chief Digital|
 | Rol de IT          | "Keep the lights on"  | Socio de innovación  |
+
+_Waterfall: poco resiliente a los cambios, se debe de diseñar muy bien_
+_En una misma empresa, pueden haber varias y/o distintas bases de datos_
+_Antes el acceso a las bases de datos era directo y era más fácil desarrollarlos, ahora no tanto_
+<img src="https://i.imgur.com/Nlp8LgN.png" alt="ahora" width="500"/>
+
 * Data Warehouse
 ** Bases de Datos Operativas
 - Sin catálogos Compartidos
