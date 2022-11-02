@@ -109,7 +109,7 @@ _Walmart tiene ambas: S1 por obligaciones legales, S2 por su parte en línea._
 _Waterfall: poco resiliente a los cambios, se debe de diseñar muy bien_
 _En una misma empresa, pueden haber varias y/o distintas bases de datos_
 _Antes el acceso a las bases de datos era directo y era más fácil desarrollarlos, ahora no tanto_
-<img src="https://i.imgur.com/Nlp8LgN.png" alt="ahora" width="500"/>
+[[file: downloads/diana1.jpeg]]
 
 * Data Warehouse
 ** Bases de Datos Operativas
