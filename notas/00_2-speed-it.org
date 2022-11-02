@@ -139,9 +139,9 @@ TODAS
 ** Carga a un solo lugar
 ** 2 velocidades
 Gracias a su resiliencia y capacidad, podemos equivocarnos y dar servicio a las dos velocidades principales.
--Organización muy fuerte: carpeta base y luego otras.
--Da oportunidad a muchos experimentos porque puedes tronarlo sin preocupación.
--Se puede volver un swamp cuando el lake es un relajo.
--Es barato.
--Una parte se va al DWH y otra a Analytics.
-Ejemplos: S3, GCS, Hadoop, Dropbox y Drive
+  -Organización muy fuerte: carpeta base y luego otras.
+  -Da oportunidad a muchos experimentos porque puedes tronarlo sin preocupación.
+  -Se puede volver un swamp cuando el lake es un relajo.
+  -Es barato.
+  -Una parte se va al DWH y otra a Analytics.
+  -Ejemplos: S3, GCS, Hadoop, Dropbox y Drive
