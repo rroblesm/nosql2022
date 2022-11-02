@@ -110,8 +110,7 @@ _Waterfall: poco resiliente a los cambios, se debe de diseñar muy bien_
 _En una misma empresa, pueden haber varias y/o distintas bases de datos_
 _Antes el acceso a las bases de datos era directo y era más fácil desarrollarlos, ahora no tanto_
 
-[[file: images/diana1.jpeg]]
-[[file: images/WhatsApp Image 2022-11-02 at 12.59.23 PM.jpeg]]
+![This is an image](https://i.imgur.com/Nlp8LgN.png)
 
 * Data Warehouse
 ** Bases de Datos Operativas
